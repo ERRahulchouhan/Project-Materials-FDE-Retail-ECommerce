@@ -1,4 +1,4 @@
-# ReturnGuard
+# ReturnGuard 
 
 **A real e-commerce return/refund process, run by a governed multi-agent AI system.**
 
@@ -594,6 +594,8 @@ one was itself run for real against the live system while it was written.
 | `verify_security` | injection via return text + text-in-image → no privilege escalation, no auto-approve; OPA denies the Image agent every tool + the `reason` model role; `slowapi` rate limiting wired; no money-mutating tool |
 | `verify_m5` | reviewer claim → deny-with-confirm → audit chain extended → override logged in `agreement_samples` → `assist` auto-approve path → request-info round trip → refund settlement (`process_refunds` → `refunded` + audit row) |
 | `verify_m6` | this README has every section + working URL; every `make` target / script exists; all 18 `docs/scenarios/*.md` walkthroughs have their expected sections |
-#   P r o j e c t - M a t e r i a l s - F D E - R e t a i l - E C o m m e r c e  
- #   P r o j e c t - M a t e r i a l s - F D E - R e t a i l - E C o m m e r c e  
+#   P r o j e c t - M a t e r i a l s - F D E - R e t a i l - E C o m m e r c e 
+ 
+ #   P r o j e c t - M a t e r i a l s - F D E - R e t a i l - E C o m m e r c e 
+ 
  
